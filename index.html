@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+
+        }
+  
+
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+
+        ul {
+            background-color: rgba(0, 0, 0, 0.212);
+            height: 15vh;
+            list-style: none;
+        }
+
+
+        nav {
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+            box-shadow: inset 2px -3px 10px red;
+           
+
+        }
+
+
+        .Saurav {
+            font-size: 13vh;
+            font-style: italic;
+            font-family: 'Foldit', cursive;
+            position: absolute;
+            margin-top: 0.1vh;
+            margin-left: 5vh;
+            cursor: default;
+            text-shadow: 5px -5px 3px black;
+        }
+
+
+        img {
+            height: 90px;
+            position: absolute;
+            margin-left: 72vh;
+        }
+
+        li {
+            position: absolute;
+            font-weight: 800;
+            font-size: 5vh;
+            font-family: cursive;
+
+        }
+
+        .list {
+            margin-left: 110vh;
+            margin-top: 3vh;
+
+        }
+
+        .list1 {
+            margin-left: 140vh;
+            margin-top: 3vh;
+        }
+
+        .list2 {
+            margin-left: 175vh;
+            margin-top: 3vh;
+        }
+
+   
+
+
+
+        p {
+            position: relative;
+            font-size: 4.5vh;
+            color: purple;
+
+            width: 110vh;
+
+            box-shadow: 3px 3px black;
+            top: 24vh;
+            left: 15vh;
+            text-align: center;
+
+        }
+
+        a:hover {
+            color: yellow;
+            text-shadow: 2px 3px 10px blue;
+            font-size: 7vh;
+            position: absolute;
+        }
+
+        .me {
+            height: 80vh;
+            position: absolute;
+            z-index: 1;
+            margin-left: 126vh;
+            bottom: 0vh;
+            animation: me ease-in infinite reverse alternate;
+            opacity: 100%;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: 10vh;
+            position: relative;
+            display: flex;
+            top: 30vh;
+            margin-left: 10vh;
+            text-shadow: 2px 3px 5px blue;
+            animation: sauri 2.5s ease-in-out 1 forwards;
+            color: black;
+
+        }
+
+        @keyframes sauri {
+            from {
+                font-size: 10vh;
+                display: none;
+                color: rgb(255, 255, 255);
+                text-shadow: 2px 3px 5px;
+                position: relative;
+                top: 2vh;
+                left: 0vh;
+            }
+
+            10% {
+                opacity: 0%;
+            }
+
+            20% {
+                opacity: 1%;
+            }
+
+            90% {
+                opacity: 70%;
+
+            }
+
+            100% {
+                opacity: 100%;
+                background: linear-gradient(yellow);
+            }
+
+            to {
+                font-size: 15vh;
+                top: 10vh;
+                left: 0vh;
+                color: rgb(212, 17, 17);
+                text-shadow: -7px 6px 20px rgb(47, 0, 255);
+                display: inline-block;
+
+            }
+            
+        }
+ul li.navbar:active{
+color: yellow;
+        }
+    @media (max-width:600px){
+        ul{
+            height: 40vh;
+            width: 190vh;
+            z-index: 1;
+
+        
+        }
+        .me{
+            height: 400px;
+      
+            margin-left: 100px;
+                  transform: translateY(700px);
+        }
+        p{
+            margin-left: 0px;
+            position: relative;
+            transform: translateX(-100px);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">
+            <nav>
+                <ul>
+                    <li class="Saurav">SAURAV ARYAL</li>
+                    <li><a href="#"><img src="s7s-logo-1072619136.png" alt=""></a></li>
+                    <li class="navbar">
+                    <li class="list"><a href="#">Home</a></li>
+                    <li class="list1"><a href="contact.html " target="_parent">Contact</a></li>
+                    <li class="list2"><a href="about.html" target="_parent">About</a></li>
+                   </li>
+                
+                </ul>
+            </nav>
+            <img class="me" src="IMG_20230427_174813_511-removebg-preview.png" alt="">
+            <h1>SAURAV ARYAL</h1>
+            <p>Hi I am Saurav Aryal. I am 16 years old. I am currently living in Kalanki-14,Kathmandu,Nepal.I read in
+                class 11. My subject is science and I am in physical group. I have 4 members in my family. Me, Father,
+                Mother and Elder Brother. </p>
+        </div>
+    </div>
+</body>
+
+</html>
